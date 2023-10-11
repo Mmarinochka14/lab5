@@ -11,7 +11,7 @@ int main() {
     for (std::string::reverse_iterator it = input.rbegin(); it != input.rend(); ++it) {
         std::cout << *it;
     }
-
+    std::cout << "Ты маладец!" << std::endl;
     std::cout << std::endl;
     return 0;
 }
